@@ -272,7 +272,7 @@ a {
     z-index: 0;
     display: flex;
     margin-top: auto;
-    padding: auto;
+    padding: 20 50;
 }
 
 .trend:after { /*маска */
