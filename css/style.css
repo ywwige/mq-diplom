@@ -272,6 +272,7 @@ a {
     z-index: 0;
     display: flex;
     margin-top: auto;
+    padding: auto;
 }
 
 .trend:after { /*маска */
@@ -289,10 +290,10 @@ a {
 .trend-text{
     width: 90%;
     border: 3px solid #b59f5b;
-    /*padding: 5% 5%;/*37px 33px;*/
-    /*position: absolute;
-    bottom: 12.57%; /*17*/
-    /*margin: auto 3.63%; /*24*/
+    /*padding: 5% 5%;*/ /*37px 33px;*/
+    /*position: absolute;*/
+    /*bottom: 12.57%;*/ /*17*/
+    /*margin: auto 3.63%;*/ /*24*/
     z-index: 2;
 }
 
