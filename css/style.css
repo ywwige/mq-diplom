@@ -313,21 +313,21 @@ a {
 @media (max-width: 640px) {
     .basic-information {
         width: 100%;
-        /*padding: 12.5% 4.17% 0;*/
+        padding: 12.5% 4.17% 0;
     }
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
     .basic-information {
         width: 100%;
-        /*padding: 6.64% 4.56% 0;*/
+        padding: 6.64% 4.56% 0;
     }
 }
 
 @media (min-width: 1200px) {
     .basic-information {
         width: 100%;
-        /*padding: 3.86% 14.76% 0;*/
+        padding: 3.86% 14.76% 0;
     }
 }
 /*лента новостей, сайдбар*/
