@@ -310,7 +310,7 @@ a {
     max-width: 1200px;
 }
 
-@media (max-width: 640px) {
+/*@media (max-width: 640px) {
     .basic-information {
         width: 100%;
         padding: 12.5% 4.17% 0;
@@ -329,7 +329,7 @@ a {
         width: 100%;
         padding: 3.86% 14.76% 0;
     }
-}
+}*/
 /*лента новостей, сайдбар*/
 .page {  
     display: flex;
