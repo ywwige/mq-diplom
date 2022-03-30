@@ -310,13 +310,13 @@ a {
     max-width: 1200px;
 }
 
-/*@media (max-width: 640px) {
+@media (max-width: 640px) {
     .basic-information {
         width: 100%;
         padding: 12.5% 4.17% 0;
     }
 }
-
+/*
 @media (min-width: 641px) and (max-width: 1199px) {
     .basic-information {
         width: 100%;
