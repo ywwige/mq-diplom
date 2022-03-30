@@ -307,6 +307,7 @@ a {
 /*основная информация, ширина @media*/
 .basic-information {
     box-sizing: border-box;
+    max-width: 1200px;
 }
 
 @media (max-width: 640px) {
