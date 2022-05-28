@@ -50,8 +50,7 @@
       <section class="trends-block">
         <h2 class="title-trends">Сейчас в тренде</h2>
         <div class="trends">
-              <article class="trend">  
-                <img class="trend-img" src="images/trend1.jpg" alt="изображение">     
+              <article class="trend trend-img-1">  
                 <div class="trend-text">
                   <ul class="category">
                     <li class="category-item">
@@ -67,8 +66,7 @@
                 </div>
               </article>
         
-              <article class="trend">
-                <img class="trend-img" src="images/trend2.jpg" alt="изображение">
+              <article class="trend trend-img-2">
                 <div class="trend-text">
                   <ul class="category">
                     <li class="category-item">
@@ -82,8 +80,7 @@
                 </div>
               </article>
         
-              <article class="trend">
-                <img class="trend-img" src="images/trend3.jpg" alt="изображение">
+              <article class="trend trend-img-3">
                 <div class="trend-text">
                   <ul class="category">
                     <li class="category-item">
@@ -100,8 +97,7 @@
                 </div>
               </article>
         
-              <article class="trend">
-                <img class="trend-img" src="images/trend4.jpg" alt="изображение">
+              <article class="trend trend-img-4">
                 <div class="trend-text">
                   <ul class="category">
                     <li class="category-item">
@@ -575,40 +571,34 @@
       <header class="popup-form__header">
         <h3 class="popup-form__title">Ваш фидбек</h3> 
       </header>
-      <div class="popup-form__content">
-        
+      <form action="" method="POST" class="popup-form__content">
           <div class="popup-form__row">
             <div class="popup-form__column">
               <div class="popup__label">Как часто вы заходите на сайт?</div>
               <div class="selectdiv">
-  <label>
-      <select>
-          <option selected> Почти каждый день </option>
-          <option>Раз в неделю</option>
-          <option>Раз в месяц</option>
-          <option>Почти не захожу</option>
-      </select>
-  </label>
-</div>
+                <label>
+                    <select>
+                        <option selected> Почти каждый день </option>
+                        <option>Раз в неделю</option>
+                        <option>Раз в месяц</option>
+                        <option>Почти не захожу</option>
+                    </select>
+                </label>
+              </div>
               <div class="popup__label" for="username">Вы подписаны на email рассылку?</div>
-             
               <label class="radio-group">    <input type="radio" class="radio" name="radio-group">    <span class="radio-group-text">Да</span>  
               </label>  <label class="radio-group">    <input type="radio" class="radio" name="radio-group">    <span class="radio-group-text">Нет</span> 
             </label>
-            
-            <div class="popup-form__column">
-              <label class="popup-form__label" for="email">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-                <textarea class="textarea" type="textarea" placeholder="Может, больше рецептов?"> 
-                </textarea>
-            </div>            
           </div>
-          
+          <div class="popup-form__column">
+            <label class="popup-form__label" for="email">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+              <textarea class="textarea" type="textarea" placeholder="Может, больше рецептов?"></textarea>
+          </div>
           <div class="popup-form__row">
             <button class="popup-form__button"><span>Отправить</span></button>
           </div>
-        
       </div>
-    </div>
+    </form>
     <button class="popup__close" type="button">Закрыть окно</button>
   </div>
 </div>
